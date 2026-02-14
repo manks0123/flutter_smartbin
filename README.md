@@ -1,4 +1,12 @@
 # Smart Bin Application
+---
+
+## 📚 Additional Documentation
+
+- 📘 [System Design](SYSTEM_DESIGN.md)
+- ⚙️ [Installation Guide](INSTALLATION.md)
+- 🤝 [Contributing Guidelines](CONTRIBUTING.md)
+
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.x-blue)
 ![Firebase](https://img.shields.io/badge/Firebase-Enabled-orange)
