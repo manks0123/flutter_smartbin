@@ -22,13 +22,10 @@ A mobile application developed using Flutter for intelligent waste classificatio
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
 - [System Architecture](#-system-architecture)
-- [Use Case Diagram](#-use-case-diagram)
-- [Architecture Diagram](#-architecture-diagram)
 - [Project Structure](#-project-structure)
 - [Installation & Setup](#-installation--setup)
 - [Authentication System](#-authentication-system)
 - [Database Design](#-database-design)
-- [ER Diagram](#-er-diagram)
 - [Application Workflow](#-application-workflow)
 - [AI Classification](#-ai-classification)
 - [Deployment Diagram](#-deployment-diagram)
@@ -86,45 +83,7 @@ User → UI → Service → Database → UI
 
 ---
 
-## 📋 Use Case Diagram
 
-```
-        +------------------+
-        |      User        |
-        +------------------+
-           |   |    |    |
-           |   |    |    +--> View Map
-           |   |    +--------> View History
-           |   +-------------> Scan Waste
-           +-----------------> Login/Register
-```
-
----
-
-## 🧱 Architecture Diagram
-
-```
-        ┌───────────┐
-        │   User    │
-        └─────┬─────┘
-              │
-              ▼
-        ┌───────────┐
-        │    UI     │
-        └─────┬─────┘
-              │
-              ▼
-        ┌───────────┐
-        │  Service  │
-        └─────┬─────┘
-        ┌─────┴─────┐
-        ▼           ▼
-  ┌─────────┐  ┌─────────┐
-  │Firestore│  │ SQLite  │
-  └─────────┘  └─────────┘
-```
-
----
 
 ## 📂 Project Structure
 
@@ -174,26 +133,6 @@ scans:
 - userId
 - wasteType
 - timestamp
-
----
-
-## 🗄 ER Diagram
-
-```
-User
------
-userId (PK)
-email
-
-Scan
------
-scanId (PK)
-userId (FK)
-wasteType
-timestamp
-
-User (1) -------- (M) Scan
-```
 
 ---
 
