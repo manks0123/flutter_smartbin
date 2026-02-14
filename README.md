@@ -23,7 +23,6 @@ A mobile application developed using Flutter for intelligent waste classificatio
 - [Tech Stack](#-tech-stack)
 - [System Architecture](#-system-architecture)
 - [Project Structure](#-project-structure)
-- [Installation & Setup](#-installation--setup)
 - [Authentication System](#-authentication-system)
 - [Database Design](#-database-design)
 - [Application Workflow](#-application-workflow)
@@ -31,7 +30,6 @@ A mobile application developed using Flutter for intelligent waste classificatio
 - [Deployment Diagram](#-deployment-diagram)
 - [Future Improvements](#-future-improvements)
 - [Version](#-version)
-- [Developer](#-developer)
 
 ---
 
